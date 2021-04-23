@@ -344,7 +344,7 @@ async function fixations_t2(fixations,fixation_id,t2){ //fixations after t1 crit
 
 
     //let start_time=0, endtime=0, duration=0;   
-    if (number_t2>0){
+    if (nxt2.length>0){
         fixx=math.mean(nxt2)
         fixy=math.mean(nyt2)
         start_time=fixations_idt2[0][2];

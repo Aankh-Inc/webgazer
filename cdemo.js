@@ -1,7 +1,7 @@
 
-const width = (+window.getComputedStyle(document.body).width.replace(/px/,''));
+//const width = (+window.getComputedStyle(document.body).width.replace(/px/,''));
 //const height = (+window.getComputedStyle(document.body).height.replace(/px/,''));
-const height=window.innerHeight;
+// const height=window.innerHeight;
 function convertArrayOfObjectsToCSV(data) {
     var result, ctr, keys, columnDelimiter, lineDelimiter;
 

@@ -286,7 +286,7 @@ async function fixation_detection(data,t1,t2,minDur,maxx,maxy){
         if (fixcord){
         fixc.push(fixcord)
         }else{
-            fixc=[{x:0, y:0, clock:0}]
+            fixc=({x:0, y:0, clock:0})
         }
     }
     //t2
